@@ -1,0 +1,10 @@
+{
+  "generator-reveal": {
+    "presentationTitle": "Beam aboard the Eclipse User Storage Service",
+    "packageVersion": "0.0.0",
+    "useSass": true,
+    "deployToGithubPages": true,
+    "githubUsername": "chrisguindon",
+    "githubRepository": "eclipseuss"
+  }
+}

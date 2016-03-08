@@ -1,0 +1,12 @@
+/**
+ * Custom SCSS for Beam aboard the Eclipse User Storage Service
+ *
+ * Copyright (C) 2016 Christopher Guindon, http://chrisguindon.com
+ */
+ 
+// Remove border on images
+.reveal section img.transparent {
+  background:none;
+  border:none;
+  box-shadow:none;
+}
