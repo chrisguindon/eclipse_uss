@@ -11,8 +11,9 @@
 @import "../../bower_components/neat/app/assets/stylesheets/neat";
 
 // Import font-awesome
-@import "../../bower_components/font-awesome/scss/font-awesome";
 $fa-font-path:        "../resources/fonts" !default;
+@import "../../bower_components/font-awesome/scss/font-awesome";
+
 
 $white: #fff;
 $black: #000;
