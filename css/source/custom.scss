@@ -4,9 +4,169 @@
  * Copyright (C) 2016 Christopher Guindon, http://chrisguindon.com
  */
  
+// Import bourbon
+@import "../../bower_components/bourbon/app/assets/stylesheets/bourbon";
+
+// Import neat
+@import "../../bower_components/neat/app/assets/stylesheets/neat";
+
+// Import font-awesome
+@import "../../bower_components/font-awesome/scss/font-awesome";
+
+$white: #fff;
+$black: #000;
+$magenta: #c5446a;
+$green: #cedd45;
+
 // Remove border on images
-.reveal section img.transparent {
-  background:none;
-  border:none;
-  box-shadow:none;
+
+.reveal {
+  .funky-title{
+     background:$magenta;
+    padding:20px 10px;
+    text-transform:uppercase;
+    font-style:italic;
+    font-weight:bold;
+    color:$green;
+    text-shadow: 2px 2px #ff0000;
+  }
+  section img.transparent {
+    background:none;
+    border:none;
+    box-shadow:none;
+  }
+  .basic-block{
+    background:$white;
+    color:$black;
+    ul{
+      padding-bottom:20px;
+      li{
+        margin-bottom:14px;
+      }
+    }
+  
+      padding:10px 20px;
+  
+    h2,h3{
+      background:$magenta;
+      padding:7px;
+    }
+  }
 }
+
+
+.two-colum-row{
+   @include outer-container;
+   
+   .icon{
+     @include span-columns(2);
+     font-size:3em;
+     text-align:right;
+   }
+   .text{
+     @include span-columns(10);
+     text-align:left;
+   }
+}
+
+// Introduction
+#slide-index{
+
+}
+
+// Speakers
+#slide-denis,
+#slide-christopher {
+  @include outer-container;
+  h2,p,li{
+    background:$black;
+    float:left;
+    padding:6px 8px;
+  }
+  
+  li{
+    margin-bottom:8px;
+    list-style:none;
+    font-size:0.9em;
+  }
+  
+  div.speaker-picture{
+    @include span-columns(5);
+  }
+  div.speaker-bio{
+    @include span-columns(7);
+     text-align:left;
+  }
+}
+
+// slide-agenda
+
+// slide-intro-eclipseuss
+#slide-intro-eclipseuss{
+  background:$white;
+  padding:10px;
+  -webkit-box-shadow: inset 0px 0px 73px 25px rgba(255,94,255,1);
+  -moz-box-shadow: inset 0px 0px 73px 25px rgba(255,94,255,1);
+  box-shadow: inset 0px 0px 73px 25px rgba(255,94,255,1);
+  .basic-block{
+    background:$black;
+    color:$green;
+  }
+  p{
+    padding:0 20px 20px 0;;
+  }
+}
+
+
+// slide-goal
+#slide-goal{
+ @include outer-container;
+  span{
+    background:$black;
+    color:$white;
+    padding:10px;
+  }
+  p{
+    border:6px solid #f3f;
+    background:#ffe0fe;
+    color:$black;
+  }
+  .block{
+    background:$white;
+    h3{
+      font-size:1.2em;
+      text-align:center;
+      color:$white;
+      padding:10px 5px;
+    }
+    color:$black;
+    padding:10px;
+  }
+  div.col-appropriate{
+    @include span-columns(6);
+    text-align:left;
+    h3{
+      background:#33cc33;
+    }
+
+  }
+  div.col-not-appropriate{
+    @include span-columns(6);
+     text-align:left;
+     h3{
+       background:#ff3300;
+     }
+  }
+}
+
+// how
+.white-block{
+  background:$white;
+  color:$black;
+  padding:20px;
+  p,ul{
+    padding:20px;
+  }
+}
+
+
