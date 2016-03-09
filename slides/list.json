@@ -92,7 +92,28 @@
             "id": "slide-eclipse-installer"
         }
     },
-        {
+    {
+        "filename": "12b_eclipse-installer.html",
+        "attr": {
+            "data-background": "resources/images/background/space-cluster.jpg",
+            "id": "slide-eclipse-installer-b"
+        }
+    },
+    {
+        "filename": "12c_eclipse-installer.html",
+        "attr": {
+            "data-background": "resources/images/background/space-cluster.jpg",
+            "id": "slide-eclipse-installer-c"
+        }
+    },
+    {
+        "filename": "12d_eclipse-installer.html",
+        "attr": {
+            "data-background": "resources/images/background/space-cluster.jpg",
+            "id": "slide-eclipse-installer-d"
+        }
+    },
+    {
         "filename": "13_marketplace-client.html",
         "attr": {
             "data-background": "resources/images/background/blue-paint.jpg",
