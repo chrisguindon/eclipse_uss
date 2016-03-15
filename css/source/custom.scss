@@ -94,10 +94,12 @@ $green: #cedd45;
   
   div.speaker-picture{
     @include span-columns(5);
+    
   }
   div.speaker-bio{
     @include span-columns(7);
      text-align:left;
+     margin-right:0;
   }
 }
 
@@ -154,6 +156,7 @@ $green: #cedd45;
   }
   div.col-not-appropriate{
     @include span-columns(6);
+        margin-right:0;
      text-align:left;
      h3{
        background:#ff3300;
@@ -171,4 +174,11 @@ $green: #cedd45;
   }
 }
 
+section img{
+	max-height:400px;
+}
+
+.resize-image{
+	height:500px;
+}
 

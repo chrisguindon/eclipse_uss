@@ -2463,7 +2463,8 @@ html {
     display: block;
     margin-right: 2.3576515979%;
     width: 57.3509785009%;
-    text-align: left; }
+    text-align: left;
+    margin-right: 0; }
     #slide-denis div.speaker-bio:last-child,
     #slide-christopher div.speaker-bio:last-child {
       margin-right: 0; }
@@ -2520,6 +2521,7 @@ html {
     display: block;
     margin-right: 2.3576515979%;
     width: 48.821174201%;
+    margin-right: 0;
     text-align: left; }
     #slide-goal div.col-not-appropriate:last-child {
       margin-right: 0; }
@@ -2532,3 +2534,9 @@ html {
   padding: 20px; }
   .white-block p, .white-block ul {
     padding: 20px; }
+
+section img {
+  max-height: 400px; }
+
+.resize-image {
+  height: 500px; }
