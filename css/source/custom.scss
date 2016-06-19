@@ -182,3 +182,10 @@ section img{
 	height:500px;
 }
 
+//Neon-webinar
+body#neon-webinar:after {
+	content: url("../resources/images/logos/eclipse-logo-bw-170-40.png");
+	position: fixed;
+	bottom: 2.5em;
+	left: 2.5em;
+}
