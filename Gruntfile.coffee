@@ -96,6 +96,11 @@ module.exports = (grunt) ->
                     src: ['index.html']
                     dest: 'dist/'
                     filter: 'isFile'
+                },{
+                    expand: true
+                    src: ['webinar.html']
+                    dest: 'dist/'
+                    filter: 'isFile'
                 }]
 
         
@@ -133,7 +138,7 @@ module.exports = (grunt) ->
             grunt.file.write 'index.html', html
             
     grunt.registerTask 'buildWebinar',
-        'Build webinar.html from templates/_index.html and slides/list.json.',
+        'Build webinar.html from templates/_index.html and slides/webinar.json.',
         ->
             indexTemplate = grunt.file.read 'templates/_index-neon-webinar.html'
             sectionTemplate = grunt.file.read 'templates/_section.html'
