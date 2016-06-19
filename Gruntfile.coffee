@@ -23,7 +23,10 @@ module.exports = (grunt) ->
                     'templates/_section.html'
                     'slides/list.json'
                 ]
-                tasks: ['buildIndex']
+                tasks: [
+                     'buildIndex'
+                     'buildWebinar'
+                ]
 
             coffeelint:
                 files: ['Gruntfile.coffee']
@@ -128,6 +131,22 @@ module.exports = (grunt) ->
                         slide:
                             slide
             grunt.file.write 'index.html', html
+            
+    grunt.registerTask 'buildWebinar',
+        'Build webinar.html from templates/_index.html and slides/list.json.',
+        ->
+            indexTemplate = grunt.file.read 'templates/_index-neon-webinar.html'
+            sectionTemplate = grunt.file.read 'templates/_section.html'
+            slides = grunt.file.readJSON 'slides/webinar.json'
+
+            html = grunt.template.process indexTemplate, data:
+                slides:
+                    slides
+                section: (slide) ->
+                    grunt.template.process sectionTemplate, data:
+                        slide:
+                            slide
+            grunt.file.write 'webinar.html', html
 
     grunt.registerTask 'test',
         '*Lint* javascript and coffee files.', [
@@ -138,6 +157,7 @@ module.exports = (grunt) ->
     grunt.registerTask 'serve',
         'Run presentation locally and start watch process (living document).', [
             'buildIndex'
+            'buildWebinar'
             'sass'
             'connect:livereload'
             'watch'
@@ -148,6 +168,7 @@ module.exports = (grunt) ->
             'test'
             'sass'
             'buildIndex'
+            'buildWebinar'
             'copy'
         ]
 
