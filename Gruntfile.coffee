@@ -11,7 +11,7 @@ module.exports = (grunt) ->
                     livereload: true
                 files: [
                     'index.html'
-                    'slides/{,*/}*.{md,html}'
+                    'slides/{,*/}*.{md,html,json}'
                     'js/*.js'
                     'css/*.css'
                     'resources/**'
@@ -23,10 +23,12 @@ module.exports = (grunt) ->
                     'templates/_section.html'
                     'slides/eclipse_uss/default.json'
                     'slides/eclipse_uss/webinar.json'
+                    'slides/git/default.json'
                 ]
                 tasks: [
                      'buildIndex'
                      'buildWebinar'
+                     'buildGit'
                 ]
 
             coffeelint:
@@ -102,6 +104,11 @@ module.exports = (grunt) ->
                     src: ['webinar.html']
                     dest: 'dist/'
                     filter: 'isFile'
+                },{
+                    expand: true
+                    src: ['git.html']
+                    dest: 'dist/'
+                    filter: 'isFile'
                 }]
 
         
@@ -138,6 +145,22 @@ module.exports = (grunt) ->
                             slide
             grunt.file.write 'index.html', html
             
+    grunt.registerTask 'buildGit',
+        'Build index.html from templates/_index.html and slides/git/default.json.',
+        ->
+            indexTemplate = grunt.file.read 'templates/_index-neon-webinar.html'
+            sectionTemplate = grunt.file.read 'templates/_section.html'
+            slides = grunt.file.readJSON 'slides/git/default.json'
+
+            html = grunt.template.process indexTemplate, data:
+                slides:
+                    slides
+                section: (slide) ->
+                    grunt.template.process sectionTemplate, data:
+                        slide:
+                            slide
+            grunt.file.write 'git.html', html
+            
     grunt.registerTask 'buildWebinar',
         'Build webinar.html from templates/_index.html and slides/eclipse_uss/webinar.json.',
         ->
@@ -164,6 +187,7 @@ module.exports = (grunt) ->
         'Run presentation locally and start watch process (living document).', [
             'buildIndex'
             'buildWebinar'
+            'buildGit'
             'sass'
             'connect:livereload'
             'watch'
@@ -175,6 +199,7 @@ module.exports = (grunt) ->
             'sass'
             'buildIndex'
             'buildWebinar'
+            'buildGit'
             'copy'
         ]
 

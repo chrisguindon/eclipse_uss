@@ -1,0 +1,102 @@
+[
+    {
+        "filename": "git/01_index.html",
+        "attr": {
+            "data-background": "resources/images/git/branching-illustration.png",
+            "id": "slide-index"
+        }
+    },
+    {
+        "filename": "git/02_christopher.html",
+        "attr": {
+            "data-background": "resources/images/background/funky-wood.jpg",
+            "id": "slide-christopher"            
+        }
+    },
+    {
+        "filename": "git/03_mika.html",
+        "attr": {
+            "data-background": "resources/images/background/inside-a-server.jpg",
+            "id": "slide-denis"
+      
+        }
+    },
+    {
+        "filename": "git/04_agenda.html",
+        "attr": {
+            "data-background": "resources/images/background/eclipsecon-background.jpg",
+            "id": "slide-agenda"
+            
+        }
+    },
+    {
+        "filename": "git/05_what_is_git.html",
+        "attr": {
+            "data-background": "resources/images/background/eclipsecon-background.jpg",
+            "id": "slide-what-is-git"
+        }
+    },
+    {
+        "filename": "git/06_git_takes_care.html",
+        "attr": {
+            "data-background": "resources/images/background/eclipsecon-background.jpg",
+            "id": "slide-problem"
+        }
+    },
+    {
+        "filename": "git/07_different_phases.html",
+        "attr": {
+            "data-background": "resources/images/background/eclipsecon-background.jpg",
+            "id": "slide-goal"
+        }
+    },
+    {
+        "filename": "git/08_what_is_a_commit.html",
+        "attr": {
+            "data-background": "resources/images/background/eclipsecon-background.jpg",
+            "id": "slide-how"
+        }
+    },
+    {
+        "filename": "git/08b_what_is_a_commit.html",
+        "attr": {
+            "data-background": "resources/images/background/eclipsecon-background.jpg",
+            "id": "slide-how"
+        }
+    },
+    {
+        "filename": "git/09_what_is_a_branch.html",
+        "attr": {
+            "data-background": "resources/images/background/eclipsecon-background.jpg",
+            "id": "slide-why"
+        }
+    },
+        {
+        "filename": "git/09b_what_is_a_branch.html",
+        "attr": {
+            "data-background": "resources/images/background/eclipsecon-background.jpg",
+            "id": "slide-why"
+        }
+    },
+    {
+        "filename": "git/10_what_is_gerrit.html",
+        "attr": {
+            "data-background": "resources/images/background/eclipsecon-background.jpg",
+            "id": "slide-why"
+        }
+    },
+    {
+        "filename": "git/11_questions.html",
+        "attr": {
+            "data-background": "resources/images/background/eclipsecon-background.jpg",
+            "id": "slide-questions"
+        }
+    },
+        {
+        "filename": "git/12_legal.html",
+        "attr": {
+            "data-background": "resources/images/background/eclipsecon-background.jpg",
+            "id": "slide-legal"
+        }
+    }
+]
