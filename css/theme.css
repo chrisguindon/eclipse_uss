@@ -2427,38 +2427,56 @@ html {
       margin-right: 0; }
 
 #slide-denis,
-#slide-christopher {
+#slide-christopher,
+#slide-02_christopher,
+#slide-03_mika {
   max-width: 1200px;
   margin-left: auto;
   margin-right: auto; }
   #slide-denis::after,
-  #slide-christopher::after {
+  #slide-christopher::after,
+  #slide-02_christopher::after,
+  #slide-03_mika::after {
     clear: both;
     content: "";
     display: table; }
   #slide-denis h2, #slide-denis p, #slide-denis li,
   #slide-christopher h2,
   #slide-christopher p,
-  #slide-christopher li {
+  #slide-christopher li,
+  #slide-02_christopher h2,
+  #slide-02_christopher p,
+  #slide-02_christopher li,
+  #slide-03_mika h2,
+  #slide-03_mika p,
+  #slide-03_mika li {
     background: #000;
     float: left;
     padding: 6px 8px; }
   #slide-denis li,
-  #slide-christopher li {
+  #slide-christopher li,
+  #slide-02_christopher li,
+  #slide-03_mika li {
     margin-bottom: 8px;
     list-style: none;
     font-size: 0.9em; }
   #slide-denis div.speaker-picture,
-  #slide-christopher div.speaker-picture {
+  #slide-christopher div.speaker-picture,
+  #slide-02_christopher div.speaker-picture,
+  #slide-03_mika div.speaker-picture {
     float: left;
     display: block;
     margin-right: 2.3576515979%;
     width: 40.2913699012%; }
     #slide-denis div.speaker-picture:last-child,
-    #slide-christopher div.speaker-picture:last-child {
+    #slide-christopher div.speaker-picture:last-child,
+    #slide-02_christopher div.speaker-picture:last-child,
+    #slide-03_mika div.speaker-picture:last-child {
       margin-right: 0; }
   #slide-denis div.speaker-bio,
-  #slide-christopher div.speaker-bio {
+  #slide-christopher div.speaker-bio,
+  #slide-02_christopher div.speaker-bio,
+  #slide-03_mika div.speaker-bio {
     float: left;
     display: block;
     margin-right: 2.3576515979%;
@@ -2466,7 +2484,9 @@ html {
     text-align: left;
     margin-right: 0; }
     #slide-denis div.speaker-bio:last-child,
-    #slide-christopher div.speaker-bio:last-child {
+    #slide-christopher div.speaker-bio:last-child,
+    #slide-02_christopher div.speaker-bio:last-child,
+    #slide-03_mika div.speaker-bio:last-child {
       margin-right: 0; }
 
 #slide-intro-eclipseuss {

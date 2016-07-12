@@ -78,7 +78,9 @@ $green: #cedd45;
 
 // Speakers
 #slide-denis,
-#slide-christopher {
+#slide-christopher,
+#slide-02_christopher,
+#slide-03_mika {
   @include outer-container;
   h2,p,li{
     background:$black;
