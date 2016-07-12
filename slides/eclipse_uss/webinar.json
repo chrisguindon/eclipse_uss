@@ -1,20 +1,20 @@
 [
     {
-        "filename": "neon-webinar/01_index.html",
+        "filename": "eclipse_uss/neon-webinar/01_index.html",
         "attr": {
             "data-background": "resources/images/background/beam-of-light.jpg",
             "id": "slide-index"
         }
     },
     {
-        "filename": "02_christopher.html",
+        "filename": "eclipse_uss/02_christopher.html",
         "attr": {
             "data-background": "resources/images/background/funky-wood.jpg",
             "id": "slide-christopher"            
         }
     },
     {
-        "filename": "neon-webinar/04_agenda.html",
+        "filename": "eclipse_uss/neon-webinar/04_agenda.html",
         "attr": {
             "data-background": "resources/images/background/lamp.jpg",
             "id": "slide-agenda"
@@ -22,70 +22,70 @@
         }
     },
     {
-        "filename": "05_intro-eclipseuss.html",
+        "filename": "eclipse_uss/05_intro-eclipseuss.html",
         "attr": {
             "data-background": "resources/images/background/inside-a-server.jpg",
             "id": "slide-intro-eclipseuss"
         }
     },
     {
-        "filename": "06_problem.html",
+        "filename": "eclipse_uss/06_problem.html",
         "attr": {
             "data-background": "resources/images/background/the-final-frontier.jpg",
             "id": "slide-problem"
         }
     },
     {
-        "filename": "07_goal.html",
+        "filename": "eclipse_uss/07_goal.html",
         "attr": {
             "data-background": "resources/images/background/hockey-goal.jpg",
             "id": "slide-goal"
         }
     },
     {
-        "filename": "08_how.html",
+        "filename": "eclipse_uss/08_how.html",
         "attr": {
             "data-background": "resources/images/background/construction-site.jpg",
             "id": "slide-how"
         }
     },
     {
-        "filename": "09_why-blobs.html",
+        "filename": "eclipse_uss/09_why-blobs.html",
         "attr": {
             "data-background": "resources/images/background/blob-the-sequel-2.jpg",
             "id": "slide-why"
         }
     },
     {
-        "filename": "10_eclipse-uss-sdk.html",
+        "filename": "eclipse_uss/10_eclipse-uss-sdk.html",
         "attr": {
             "data-background": "resources/images/background/brick-texture-2.jpg",
             "id": "slide-eclipse-uss-sdk"
         }
     },
         {
-        "filename": "14_get-started.html",
+        "filename": "eclipse_uss/14_get-started.html",
         "attr": {
             "data-background": "resources/images/background/energy.jpg",
             "id": "slide-get-started"
         }
     },
         {
-        "filename": "neon-webinar/15_future-plans.html",
+        "filename": "eclipse_uss/neon-webinar/15_future-plans.html",
         "attr": {
             "data-background": "resources/images/background/back-of-delorian-from-back-to.jpg",
             "id": "slide-future"
         }
     },
         {
-        "filename": "neon-webinar/16_questions.html",
+        "filename": "eclipse_uss/neon-webinar/16_questions.html",
         "attr": {
             "data-background": "resources/images/background/sky.jpg",
             "id": "slide-questions"
         }
     },
         {
-        "filename": "17_legal.html",
+        "filename": "eclipse_uss/17_legal.html",
         "attr": {
             "data-background": "resources/images/background/eclipsecon-background.jpg",
             "id": "slide-legal"
