@@ -3,21 +3,21 @@
         "filename": "git/01_index.html",
         "attr": {
             "data-background": "resources/images/git/branching-illustration.png",
-            "id": "slide-index"
+            "id": "slide-01_index"
         }
     },
     {
         "filename": "git/02_christopher.html",
         "attr": {
             "data-background": "resources/images/background/funky-wood.jpg",
-            "id": "slide-christopher"            
+            "id": "slide-02_christopher"            
         }
     },
     {
         "filename": "git/03_mika.html",
         "attr": {
             "data-background": "resources/images/background/inside-a-server.jpg",
-            "id": "slide-denis"
+            "id": "slide-03_mika"
       
         }
     },
@@ -25,7 +25,7 @@
         "filename": "git/04_agenda.html",
         "attr": {
             "data-background": "resources/images/background/eclipsecon-background.jpg",
-            "id": "slide-agenda"
+            "id": "slide-04_agenda"
             
         }
     },
@@ -33,70 +33,77 @@
         "filename": "git/05_what_is_git.html",
         "attr": {
             "data-background": "resources/images/background/eclipsecon-background.jpg",
-            "id": "slide-what-is-git"
+            "id": "slide-05_what_is_git"
         }
     },
     {
         "filename": "git/06_git_takes_care.html",
         "attr": {
             "data-background": "resources/images/background/eclipsecon-background.jpg",
-            "id": "slide-problem"
+            "id": "slide-06_git_takes_care"
         }
     },
     {
         "filename": "git/07_different_phases.html",
         "attr": {
             "data-background": "resources/images/background/eclipsecon-background.jpg",
-            "id": "slide-goal"
+            "id": "slide-07_different_phases"
         }
     },
     {
         "filename": "git/08_what_is_a_commit.html",
         "attr": {
             "data-background": "resources/images/background/eclipsecon-background.jpg",
-            "id": "slide-how"
+            "id": "slide-08_what_is_a_commit"
         }
     },
     {
         "filename": "git/08b_what_is_a_commit.html",
         "attr": {
             "data-background": "resources/images/background/eclipsecon-background.jpg",
-            "id": "slide-how"
+            "id": "slide-08b_what_is_a_commit"
         }
     },
     {
         "filename": "git/09_what_is_a_branch.html",
         "attr": {
             "data-background": "resources/images/background/eclipsecon-background.jpg",
-            "id": "slide-why"
+            "id": "slide-09_what_is_a_branch"
         }
     },
         {
         "filename": "git/09b_what_is_a_branch.html",
         "attr": {
             "data-background": "resources/images/background/eclipsecon-background.jpg",
-            "id": "slide-why"
+            "id": "slide-09b_what_is_a_branch"
         }
     },
     {
-        "filename": "git/10_what_is_gerrit.html",
+        "filename": "git/10_when_to_rebase.html",
         "attr": {
             "data-background": "resources/images/background/eclipsecon-background.jpg",
-            "id": "slide-why"
+            "id": "slide-10_when_to_rebase"
         }
     },
     {
-        "filename": "git/11_questions.html",
+        "filename": "git/11_what_is_gerrit.html",
         "attr": {
             "data-background": "resources/images/background/eclipsecon-background.jpg",
-            "id": "slide-questions"
+            "id": "slide-11_what_is_gerrit"
+        }
+    },
+    {
+        "filename": "git/12_questions.html",
+        "attr": {
+            "data-background": "resources/images/background/eclipsecon-background.jpg",
+            "id": "slide-12_questions"
         }
     },
         {
-        "filename": "git/12_legal.html",
+        "filename": "git/13_legal.html",
         "attr": {
             "data-background": "resources/images/background/eclipsecon-background.jpg",
-            "id": "slide-legal"
+            "id": "slide-13_legal"
         }
     }
 ]
