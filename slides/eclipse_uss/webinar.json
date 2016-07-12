@@ -1,0 +1,94 @@
+[
+    {
+        "filename": "eclipse_uss/neon-webinar/01_index.html",
+        "attr": {
+            "data-background": "resources/images/background/beam-of-light.jpg",
+            "id": "slide-index"
+        }
+    },
+    {
+        "filename": "eclipse_uss/02_christopher.html",
+        "attr": {
+            "data-background": "resources/images/background/funky-wood.jpg",
+            "id": "slide-christopher"            
+        }
+    },
+    {
+        "filename": "eclipse_uss/neon-webinar/04_agenda.html",
+        "attr": {
+            "data-background": "resources/images/background/lamp.jpg",
+            "id": "slide-agenda"
+            
+        }
+    },
+    {
+        "filename": "eclipse_uss/05_intro-eclipseuss.html",
+        "attr": {
+            "data-background": "resources/images/background/inside-a-server.jpg",
+            "id": "slide-intro-eclipseuss"
+        }
+    },
+    {
+        "filename": "eclipse_uss/06_problem.html",
+        "attr": {
+            "data-background": "resources/images/background/the-final-frontier.jpg",
+            "id": "slide-problem"
+        }
+    },
+    {
+        "filename": "eclipse_uss/07_goal.html",
+        "attr": {
+            "data-background": "resources/images/background/hockey-goal.jpg",
+            "id": "slide-goal"
+        }
+    },
+    {
+        "filename": "eclipse_uss/08_how.html",
+        "attr": {
+            "data-background": "resources/images/background/construction-site.jpg",
+            "id": "slide-how"
+        }
+    },
+    {
+        "filename": "eclipse_uss/09_why-blobs.html",
+        "attr": {
+            "data-background": "resources/images/background/blob-the-sequel-2.jpg",
+            "id": "slide-why"
+        }
+    },
+    {
+        "filename": "eclipse_uss/10_eclipse-uss-sdk.html",
+        "attr": {
+            "data-background": "resources/images/background/brick-texture-2.jpg",
+            "id": "slide-eclipse-uss-sdk"
+        }
+    },
+        {
+        "filename": "eclipse_uss/14_get-started.html",
+        "attr": {
+            "data-background": "resources/images/background/energy.jpg",
+            "id": "slide-get-started"
+        }
+    },
+        {
+        "filename": "eclipse_uss/neon-webinar/15_future-plans.html",
+        "attr": {
+            "data-background": "resources/images/background/back-of-delorian-from-back-to.jpg",
+            "id": "slide-future"
+        }
+    },
+        {
+        "filename": "eclipse_uss/neon-webinar/16_questions.html",
+        "attr": {
+            "data-background": "resources/images/background/sky.jpg",
+            "id": "slide-questions"
+        }
+    },
+        {
+        "filename": "eclipse_uss/17_legal.html",
+        "attr": {
+            "data-background": "resources/images/background/eclipsecon-background.jpg",
+            "id": "slide-legal"
+        }
+    }
+]
