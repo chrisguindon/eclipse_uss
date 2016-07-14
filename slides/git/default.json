@@ -86,6 +86,13 @@
         }
     },
     {
+        "filename": "git/10b_when_to_rebase.html",
+        "attr": {
+            "data-background": "resources/images/background/eclipsecon-background.jpg",
+            "id": "slide-10b_when_to_rebase"
+        }
+    },
+    {
         "filename": "git/11_what_is_gerrit.html",
         "attr": {
             "data-background": "resources/images/background/eclipsecon-background.jpg",
